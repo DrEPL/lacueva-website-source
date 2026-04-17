@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Navigation from './components/Navigation.jsx'
 import HeroSection from './components/HeroSection.jsx'
 import AboutSection from './components/AboutSection.jsx'
@@ -36,6 +37,7 @@ function App() {
         <ContactSection />
       </section>
       <Footer />
+      <Analytics />
     </div>
   )
 }
